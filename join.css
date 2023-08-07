@@ -67,8 +67,8 @@ form{
 }
 input {
     display: block;
-    width: 416px;
-    height: 62;
+    width: 320px;
+    height: 15px;
     border-radius: 8px;
     background: #222938;
     padding: 0.8rem;
