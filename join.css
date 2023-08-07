@@ -1,0 +1,99 @@
+.form-wrapper{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form{
+    background: #0a081d;
+    border-radius: 0.75rem;
+    border: 1.25px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 2rem 4rem;
+    width: 25rem;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    gap: 3rem;
+}
+
+.header .logo{
+    width: 3.3rem;
+    height: 3.3rem;
+}
+
+.header .logo img {
+    width: 100%;
+}
+
+.title-texts{
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Cabin;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 33.6px */
+}
+.title-texts p{
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Cabin;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    align-items: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    gap: 12px;
+}
+input {
+    display: block;
+    width: 416px;
+    height: 62;
+    border-radius: 8px;
+    background: #222938;
+    padding: 0.8rem;
+    border: none;
+    margin-top: 0.4rem;
+    
+}
+
+
+form button {
+      width: 100%;
+      border-radius: 0.5rem;
+      padding: 1rem 1.75rem;
+      color: #FFF;
+      font-size: 1rem;
+      background: var(--gradient);
+      border-radius: 4rem;
+}
+
+form .home{
+    border: 0.06rem solid;
+    border-radius: 4rem;
+    background-color: var(--gradient);
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+
+}
