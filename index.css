@@ -784,6 +784,21 @@ button{
       width: 2.4rem;
       height: 2.1rem;
   }
+  .frame{
+      display: none;
+  }
+  .frame .button{
+    display: none;
+  }
+  .show2{
+    display: block;
+  }
+  .hide{
+    display: none;
+  }
+  .head2{
+    margin-top: 15.5re;
+  }
 
   .frame{
       display: none;
