@@ -89,9 +89,9 @@ form button {
       padding: 1rem 1.75rem;
       color: #FFF;
       font-size: 1rem;
-      background: var(--gradient);
+      background: Linear-gradient(134deg, #174AFF 11.98%, #00D9AC 100%);
       border-radius: 4rem;
-      background-color: rgb(19, 87, 177);
+    
 }
 
 form .home{
