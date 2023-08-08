@@ -784,6 +784,9 @@ button{
       width: 2.4rem;
       height: 2.1rem;
   }
+  .HamburgerMenu{
+      display: hide;
+  }
   .frame{
       display: none;
   }
