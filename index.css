@@ -792,7 +792,9 @@ button{
       height: 2.1rem;
   }
 .HamburgerMenu{
-  display: block;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
   .frame{
       display: none;
